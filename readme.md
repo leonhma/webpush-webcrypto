@@ -35,7 +35,7 @@ const { headers, body, endpoint } = await generatePushHTTPRequest({
 			auth: "…",
 		},
 	},
-	adminContact: "hello@example.com",
+	adminContact: "mailto:hello@example.com",
 	ttl: 60,
 	urgency: "low",
 });
